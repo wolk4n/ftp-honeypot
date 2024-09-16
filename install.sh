@@ -13,6 +13,12 @@ echo ' __  __     ______     __   __     ______     __  __     ______   ______  
 echo "[!] Additional packages preparing.."
 echo "[!] Additional packages downloading..."
 mkdir "/ftp_honeypot_dir/"
+wget https://github.com/wolk4n/ftp-honeypot/blob/main/ftp_dir/passwords.txt -P /ftp_honeypot_dir/
+wget https://github.com/wolk4n/ftp-honeypot/blob/main/ftp_dir/important_contacts.csv -P /ftp_honeypot_dir/
+wget https://github.com/wolk4n/ftp-honeypot/blob/main/ftp_dir/id_rsa -P /ftp_honeypot_dir/
+wget https://github.com/wolk4n/ftp-honeypot/blob/main/ftp_dir/database.sql -P /ftp_honeypot_dir/
+wget https://github.com/wolk4n/ftp-honeypot/blob/main/ftp_dir/backup_2024_08_17.log -P /ftp_honeypot_dir/
+wget https://github.com/wolk4n/ftp-honeypot/blob/main/ftp_dir/access.log -P /ftp_honeypot_dir/
 apt install python3 -y
 pip install --upgrade pip
 pip install pyftpdlib

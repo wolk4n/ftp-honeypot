@@ -12,6 +12,7 @@ echo ' __  __     ______     __   __     ______     __  __     ______   ______  
     '
 echo "[!] Additional packages preparing.."
 echo "[!] Additional packages downloading..."
+mkdir "/ftp_honeypot_dir/"
 apt install python3 -y
 pip install --upgrade pip
 pip install pyftpdlib

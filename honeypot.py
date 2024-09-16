@@ -21,8 +21,8 @@ logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
 authorizer = DummyAuthorizer()
-authorizer.add_user("user", "12345", "/ftp_dir", perm="elradfmw")
-authorizer.add_anonymous("/ftp_dir")
+authorizer.add_user("user", "12345", "/ftp_honeypot_dir", perm="elradfmw")
+authorizer.add_anonymous("/ftp_honeypot_dir")
 
 def banner():
     print(""" __  __     ______     __   __     ______     __  __     ______   ______     ______  

@@ -1,0 +1,6 @@
+192.168.1.10 - admin [15/Sep/2024:10:35:12] "GET /admin" 200
+192.168.1.11 - finance_user [15/Sep/2024:11:15:45] "POST /login" 302
+192.168.1.12 - guest [15/Sep/2024:12:25:30] "GET /dashboard" 403
+192.168.1.13 - dev_user [15/Sep/2024:13:10:22] "POST /update" 200
+192.168.1.14 - admin [15/Sep/2024:14:45:35] "GET /logs" 200
+192.168.1.15 - admin [15/Sep/2024:15:50:10] "POST /backup" 500

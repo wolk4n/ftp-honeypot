@@ -2,7 +2,7 @@
 
 Bu proje, FTP sunucusuna yönelik saldırıları tespit etmek ve analiz etmek amacıyla bir honeypot oluşturur. Honeypot, saldırganların ilgisini çekmek için çeşitli sahte dosyalar içerir ve sunucu üzerindeki aktiviteleri loglar. Bu sayede hiçbir veri kaybetmeden potansiyel kötü niyetli kişiler hakkında bilgi toplanmış olur ve ona göre güvenlik politikaları geliştirilir.
 
-## Özellikler
+## ✨ Özellikler
 
 - **FTP Sunucusu:** FTP protokolü üzerinden bağlantıları kabul eder.
 - **Sahte Dosyalar:** Saldırganların ilgisini çekmek için çeşitli sahte dosyalar içerir.
@@ -27,8 +27,10 @@ username: user
 password: 12345
 ```
 
-## Video
-eklenecek
+## 🎬 Video
+Bu proje hakkında daha fazla bilgi almak ve nasıl çalıştığını görmek için hazırladığım videoyu izleyebilirsiniz:
+[![Session Hijacking Demo](https://www.imagevisit.com/images/2024/08/28/MR-ROBOT-1.png)](https://youtu.be/yBi4q-8B-nQ)
+
 
 ## 📝 Lisans
 
